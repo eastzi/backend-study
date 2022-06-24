@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\태경\Desktop\이스트지\spring\worksapce\backend-study\workspace-spring-tool-suite-4-4.14.1.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
+132333139.index
+3134411186.index
+1865797976.index
+616840867.index
