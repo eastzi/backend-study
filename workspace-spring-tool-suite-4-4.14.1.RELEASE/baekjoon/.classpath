@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/태경/Desktop/이스트지/spring/worksapce/workspace-spring-tool-suite-4-4.14.1.RELEASE/baekjoon/lib/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/Users/태경/Desktop/이스트지/spring/sts-4.14.1.RELEASE/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
