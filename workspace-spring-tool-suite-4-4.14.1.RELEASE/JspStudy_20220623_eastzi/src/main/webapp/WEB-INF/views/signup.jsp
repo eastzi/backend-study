@@ -9,7 +9,8 @@
 <body>
 	<div id="container">
 		<h1>회원가입</h1>
-		<form action="">
+		<!-- action => 요청 메세지를 입력하는 곳 -->
+		<form action="/signup" method="post"> <!-- 밑에 button을 누르면 method를 실행시킴. -->
 			<table>
 				<tr>
 					<th>이름</th>
@@ -32,6 +33,5 @@
 			<button type="reset">재작성</button>
 		</form>
 	</div>
-	
 </body>
 </html>
