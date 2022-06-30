@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="J12_다형성.Factory"/>
-    <fullyQualifiedTypeName name="J12_다형성.SmartPhoneLGFactory"/>
-    <fullyQualifiedTypeName name="J12_다형성.ComputerFactory"/>
-    <fullyQualifiedTypeName name="J13_추상.Factory"/>
-    <fullyQualifiedTypeName name="J13_추상.LGFactory"/>
-    <fullyQualifiedTypeName name="J13_추상.SamsungFactory"/>
-    <fullyQualifiedTypeName name="J14_인터페이스.Monitor"/>
-    <fullyQualifiedTypeName name="J14_인터페이스.BeamProjector"/>
-    <fullyQualifiedTypeName name="J14_인터페이스.SmartPhone"/>
-    <fullyQualifiedTypeName name="J15_인터페이스_활용.service.UserService"/>
-    <fullyQualifiedTypeName name="J15_인터페이스_활용.controller.ApiController"/>
-    <fullyQualifiedTypeName name="J15_인터페이스_활용.service.OAuth2UserService"/>
-    <fullyQualifiedTypeName name="J16_스태틱.싱글톤.factory.Car"/>
     <fullyQualifiedTypeName name="J16_스태틱.싱글톤.Singleton"/>
     <fullyQualifiedTypeName name="J16_스태틱.Test"/>
     <fullyQualifiedTypeName name="J16_스태틱.StaticTest"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="ch05.Student"/>
     <fullyQualifiedTypeName name="ch05.Man"/>
     <fullyQualifiedTypeName name="ch05.Person"/>
+    <fullyQualifiedTypeName name="ch06.BirthDaay"/>
+    <fullyQualifiedTypeName name="ch06.BirthDay"/>
+    <fullyQualifiedTypeName name="ch06.Person"/>
+    <fullyQualifiedTypeName name="ch06.Bus"/>
+    <fullyQualifiedTypeName name="ch06.Subway"/>
+    <fullyQualifiedTypeName name="ch06.Subway2"/>
+    <fullyQualifiedTypeName name="ch06.Student"/>
+    <fullyQualifiedTypeName name="ch05.Student2"/>
+    <fullyQualifiedTypeName name="ch06.Bus2"/>
+    <fullyQualifiedTypeName name="ch06.StudentLee"/>
+    <fullyQualifiedTypeName name="ch06.Student1"/>
+    <fullyQualifiedTypeName name="ch05.StudnetTest2"/>
+    <fullyQualifiedTypeName name="ch06.Student2"/>
 </qualifiedTypeNameHistroy>

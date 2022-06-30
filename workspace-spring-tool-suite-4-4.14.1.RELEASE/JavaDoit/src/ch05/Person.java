@@ -5,6 +5,8 @@ public class Person {
 	float height;
 	float weight;
 	
+	//생성자 => 인스턴스 변수의 초기화 
+	//default 생성자
 	public Person() {
 		
 	}
