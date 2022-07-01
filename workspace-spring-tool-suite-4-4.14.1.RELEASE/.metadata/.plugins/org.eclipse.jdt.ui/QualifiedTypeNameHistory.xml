@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="J16_스태틱.싱글톤.Singleton"/>
-    <fullyQualifiedTypeName name="J16_스태틱.Test"/>
-    <fullyQualifiedTypeName name="J16_스태틱.StaticTest"/>
-    <fullyQualifiedTypeName name="J16_최상위클래스.Teacher"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="J16_최상위클래스.entity.Product2"/>
-    <fullyQualifiedTypeName name="lombok.NonNull"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="J11_상속.동물.Tiger"/>
-    <fullyQualifiedTypeName name="java.awt.color.CMMException"/>
     <fullyQualifiedTypeName name="J09_클래스기본정리.repository.User"/>
     <fullyQualifiedTypeName name="J09_클래스기본정리.service.UserService"/>
     <fullyQualifiedTypeName name="J09_클래스기본정리.controller.UserManagementController"/>
@@ -31,19 +17,12 @@
     <fullyQualifiedTypeName name="RunClass.Person1"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.security.Key"/>
     <fullyQualifiedTypeName name="lombok.Value"/>
     <fullyQualifiedTypeName name="java.awt.RenderingHints.Key"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.Builder"/>
-    <fullyQualifiedTypeName name="web.dto.SignupReqDto"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="service.UserService"/>
-    <fullyQualifiedTypeName name="service.UserServiceImpl"/>
     <fullyQualifiedTypeName name="ch05.Student"/>
     <fullyQualifiedTypeName name="ch05.Man"/>
     <fullyQualifiedTypeName name="ch05.Person"/>
@@ -60,4 +39,25 @@
     <fullyQualifiedTypeName name="ch06.Student1"/>
     <fullyQualifiedTypeName name="ch05.StudnetTest2"/>
     <fullyQualifiedTypeName name="ch06.Student2"/>
+    <fullyQualifiedTypeName name="ch06.Company"/>
+    <fullyQualifiedTypeName name="java.awt.MouseInfo"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.Factory"/>
+    <fullyQualifiedTypeName name="ch06.alone.CarFactory"/>
+    <fullyQualifiedTypeName name="ch06.alone.Car"/>
+    <fullyQualifiedTypeName name="domain.jdbc.DBConnectionMgr"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="service.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="domain.dao.UserDaoImpl"/>
+    <fullyQualifiedTypeName name="domain.dao.UserDao"/>
+    <fullyQualifiedTypeName name="domain.entity.User"/>
+    <fullyQualifiedTypeName name="service.UserService"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="web.dto.SignupReqDto"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="ch07.Book"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

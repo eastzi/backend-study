@@ -49,7 +49,11 @@ public class SignupServlet extends HttpServlet {
 		
 		//예외 미루기 마지노선 
 		try {
-			userService.createUser(signupReqDto);
+			if(userService.createUser(signupReqDto)) {
+				System.out.println("회원가입 성공");
+			}else {
+				System.out.println("회원가입 실패");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

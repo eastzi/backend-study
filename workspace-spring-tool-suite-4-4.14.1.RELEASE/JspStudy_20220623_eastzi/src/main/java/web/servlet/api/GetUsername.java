@@ -1,4 +1,4 @@
-package web_servlet_api;
+package web.servlet.api;
 
 import java.io.IOException;
 
