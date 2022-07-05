@@ -11,7 +11,12 @@ public class UserServiceImpl implements UserService {
 	public UserServiceImpl () {
 		userDao = new UserDaoImpl();
 	}
-
+	
+	@Override
+	public boolean checkUsername(String username) throws Exception {
+		return userDao.findUserByUsername(username) != null;
+	}
+	
 	@Override
 	public boolean createUser(SignupReqDto signupReqDto) throws Exception {
 		return userDao.save(signupReqDto.toEntity()) > 0;
@@ -34,6 +39,7 @@ public class UserServiceImpl implements UserService {
 		
 		return false;
 	}
+
 
 	
 }

@@ -1,6 +1,7 @@
 package web.servlet;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import service.UserService;
 import service.UserServiceImpl;
 import web.dto.SignupReqDto;
+
 
 /*
  * 데이터 요청 방법
