@@ -13,6 +13,8 @@ public class SignupReqDto {
 	private String username;
 	private String password;
 	
+	
+	//dto에 있는 값을 user 객체로 바뀌어 리턴해줌
 	public User toEntity() {
 		return User.builder()
 				.name(name)

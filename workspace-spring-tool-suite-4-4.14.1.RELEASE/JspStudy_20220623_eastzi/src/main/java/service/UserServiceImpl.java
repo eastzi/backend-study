@@ -2,11 +2,12 @@ package service;
 
 import domain.dao.UserDao;
 import domain.dao.UserDaoImpl;
+import domain.entity.User;
 import web.dto.SignupReqDto;
 
 public class UserServiceImpl implements UserService {
 	
-	private UserDao userDao;
+	private final UserDao userDao;
 	
 	public UserServiceImpl () {
 		userDao = new UserDaoImpl();
@@ -19,7 +20,10 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public boolean createUser(SignupReqDto signupReqDto) throws Exception {
-		return userDao.save(signupReqDto.toEntity()) > 0;
+//		System.out.println("회원가입서비스 실행");
+//		System.out.println(signupReqDto);
+//		User user;
+		return userDao.save(signupReqDto.toEntity()) > 0; //user 객체로 바꾸어 save에 전달
 	}
 
 	@Override
@@ -40,6 +44,13 @@ public class UserServiceImpl implements UserService {
 		return false;
 	}
 
-
-	
+	@Override
+	public User loadUser(String username, String password) throws Exception {
+		User user = userDao.findUserByUsername(username);
+		if(user == null) {
+			return null;
+		}else {
+			return user.getPassword().equals(password) ? user : null;
+		}
+	}
 }

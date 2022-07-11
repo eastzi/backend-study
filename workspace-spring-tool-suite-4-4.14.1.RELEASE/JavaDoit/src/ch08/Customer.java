@@ -15,14 +15,23 @@ public class Customer {
 	int bonusPoint;
 	double bonusRatio;
 	
+	public Customer() {
+		initCustomer();
+	}
+	
 	//디폴트 생성자를 없애고 id와 name을 받는 생성자로 변경하면 
 	//상속받는 vip클래스에서 오류가 발생함. => vip클래스에도 생성자를 호출해야함.
 	public Customer(int customerID, String customerName) {
 		this.customerID = customerID;
 		this.customerName = customerName;
+		initCustomer();
+		
+		System.out.println("Customer(int, String) 생성자 호출");
+	}
+	
+	private void initCustomer() {
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
-		System.out.println("Customer(int, String) 생성자 호출");
 	}
 	
 	public int calcPrice(int price) {

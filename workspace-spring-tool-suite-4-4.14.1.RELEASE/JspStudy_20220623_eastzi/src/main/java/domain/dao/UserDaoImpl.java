@@ -40,7 +40,7 @@ public class UserDaoImpl implements UserDao {
 				+ "	NOW(),\r\n"
 				+ "	NOW()\r\n"
 				+ ");";
-		con = pool.getConnection(); //데이터베이스 연결
+		con = pool.getConnection(); //데이터베이스 연결 + 예외처리 필요
 		//예외 마지노선 
 		try {
 			pstmt = con.prepareStatement(sql); //데이터베이스에서 해당 쿼리문을 전달
