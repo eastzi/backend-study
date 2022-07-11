@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ch06.Student"/>
-    <fullyQualifiedTypeName name="ch05.Student2"/>
-    <fullyQualifiedTypeName name="ch06.Bus2"/>
     <fullyQualifiedTypeName name="ch06.StudentLee"/>
     <fullyQualifiedTypeName name="ch06.Student1"/>
     <fullyQualifiedTypeName name="ch05.StudnetTest2"/>
@@ -16,8 +13,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="domain.dao.UserDaoImpl"/>
-    <fullyQualifiedTypeName name="domain.dao.UserDao"/>
     <fullyQualifiedTypeName name="web.dto.SignupReqDto"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
     <fullyQualifiedTypeName name="ch07.Book"/>
@@ -34,8 +29,6 @@
     <fullyQualifiedTypeName name="java.awt.geom.RectangularShape"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="service.UserService"/>
-    <fullyQualifiedTypeName name="service.UserServiceImpl"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="ch08.k.Computer"/>
     <fullyQualifiedTypeName name="ch08.k.Notebook"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="ch09.Computer"/>
     <fullyQualifiedTypeName name="ch09.NoteBook"/>
     <fullyQualifiedTypeName name="ch09.MyNoteBook"/>
+    <fullyQualifiedTypeName name="domain.dao.UserDao"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.io.Serial"/>
+    <fullyQualifiedTypeName name="Config.ServletContextConfig"/>
+    <fullyQualifiedTypeName name="service.UserService"/>
+    <fullyQualifiedTypeName name="domain.dao.UserDaoImpl"/>
+    <fullyQualifiedTypeName name="service.UserServiceImpl"/>
 </qualifiedTypeNameHistroy>
